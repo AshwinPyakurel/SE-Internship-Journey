@@ -1,0 +1,102 @@
+.search-inp {
+    height: 20px;
+    background-color: #CAEFF5;
+    border: 0px;
+    width: 231px;
+    float: left;
+}
+
+.cross-btn {
+    float: left;
+}
+
+.cross-btn input {
+    background: url("../images/cross.png") no-repeat;
+    border: none;
+    outline: none;
+    height: 39px;
+    width: 53px;
+    font-size: 0px;
+    color: #f3f5f2;
+    padding: 0;
+}
+
+.search-icon {
+    float: right;
+}
+
+.search-icon input {
+    background: url("../images/search.png") no-repeat;
+    border: none;
+    outline: none;
+    height: 39px;
+    width: 53px;
+    font-size: 0px;
+    color: #f3f5f2;
+    padding: 0;
+    margin-left: -35px;
+}
+
+.username {
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 81px;
+}
+
+.up-menu-list li {
+    float: right;
+    margin: 2px;
+    list-style: none;
+    font-size: 16px;
+    color: #323232;
+}
+
+.nav-lists ul {
+    list-style: none;
+}
+
+.nav-lists li {
+    float: left;
+    margin-left: 60px;
+    margin-top: 28px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #323232;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-left ul {
+    list-style: none;
+}
+
+.footer-left ul li {
+    float: left;
+    font-size: 9px;
+    line-height: 45px;
+    color: #d4d4d4;
+    padding-left: 10px;
+    padding-right: 8px;
+    background: url("../images/footer-list.png") 0 50% no-repeat;
+}
+
+.footer-left ul li:first-child {
+    background: none;
+    padding-left: 0px;
+}
+
+.footer-left ul li a {
+    text-decoration: none;
+    color: #d4d4d4;
+}
+
+.footer-right {
+    float: right;
+    line-height: 45px;
+    color: #d4d4d4;
+    font-size: 9px;
+    padding: 0 6px;
+}

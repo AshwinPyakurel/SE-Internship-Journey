@@ -1,0 +1,51 @@
+.header {
+    background-color: #7DD9E8;
+    height: 85px;
+}
+
+.container {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.head-left {
+    float: left;
+}
+
+.head-right {
+    float: right;
+}
+
+.logo-wrapper {
+    float: left;
+}
+
+.search-wrapper {
+    float: right;
+    margin-top: 40px;
+    margin-left: 41px;
+}
+
+.navbar {
+    height: 77px;
+    background-color: #f5f5f5;
+}
+
+.navbar-left {
+    float: left;
+    margin-left: -561px;
+}
+
+.navbar-right {
+    float: right;
+    margin-left: 100px;
+}
+
+.footer-wrp {
+    background: #727272;
+}
+
+.footer-wrp-center {
+    margin: 0 auto;
+    max-width: 58.625em;
+}
