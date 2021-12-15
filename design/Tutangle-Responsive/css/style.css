@@ -6,6 +6,10 @@
     float: left;
 }
 
+.hamburger {
+    display: none;
+}
+
 .cross-btn {
     float: left;
 }
