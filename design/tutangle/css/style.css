@@ -65,6 +65,46 @@
     color: #323232;
 }
 
+.sidebar-menu li:first-child {
+    background-color: #2FC1DA;
+    color: #FFFF;
+    margin-bottom: 0px;
+}
+
+.sidebar-menu {
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.sidebar-menu li {
+    padding: 16px;
+}
+
+.list-icon {
+    float: right;
+    height: 12px;
+    width: 13px;
+    margin-top: -13px;
+}
+
+.hamburger-button {
+    background: url(../images/hamburger.png);
+    outline: 0px;
+    border: none;
+    height: 12px;
+    width: 13px;
+    position: absolute;
+}
+
+.download-button {
+    background: url(../images/download.png);
+    outline: 0px;
+    border: none;
+    height: 12px;
+    width: 13px;
+    position: absolute;
+}
+
 .footer-left {
     float: left;
 }

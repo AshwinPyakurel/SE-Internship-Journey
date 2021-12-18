@@ -1,6 +1,7 @@
 .header {
     background-color: #7DD9E8;
     height: 85px;
+    width: 100%;
 }
 
 .container {
@@ -33,12 +34,35 @@
 
 .navbar-left {
     float: left;
-    margin-left: -561px;
+    margin-left: -622px;
 }
 
 .navbar-right {
     float: right;
     margin-left: 100px;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.sidebar-left {
+    width: 194px;
+    float: left;
+    position: absolute;
+}
+
+.content {
+    float: right;
+}
+
+.sidebar-right {
+    width: 194px;
+    float: right;
 }
 
 .footer-wrp {
