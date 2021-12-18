@@ -71,6 +71,7 @@
 .cont_join_btn {
     margin: 20px 0;
     display: table-cell;
+    margin-top: 20px;
 }
 
 .cont_join_btn button {
@@ -141,36 +142,4 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-@media screen and (max-width: 600px) {
-    .t_nav_list_wrap a:not(:first-child) {
-        display: none;
-    }
-    .t_nav_list_wrap a.icon {
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .t_nav_list_wrap.responsive {
-        position: relative;
-    }
-    .t_nav_list_wrap.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .t_nav_list_wrap.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-        margin-bottom: 10px;
-    }
-    .t_nav_list_wrap .nav_item:hover {
-        background-color: var(--orange);
-        border-radius: 50px;
-        color: var(--white);
-    }
 }
